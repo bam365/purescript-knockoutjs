@@ -1,5 +1,5 @@
 {
-  "name": "purescript-knockoutjs",
+  "name": "purescript-knockout",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -7,9 +7,11 @@
     "output"
   ],
   "dependencies": {
-    "purescript-console": "^1.0.0"
+    "purescript-foreign": "^1.0.0",
+    "purescript-prelude": "^1.0.0"
   },
   "devDependencies": {
+    "purescript-console": "^1.0.0",
     "purescript-psci-support": "^1.0.0"
   }
 }
